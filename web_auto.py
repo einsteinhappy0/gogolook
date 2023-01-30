@@ -6,7 +6,7 @@ from selenium.webdriver import ActionChains
 from time import sleep
 
 def main():
-    config = {'username':'P223426123', 'password': '1yppah', 'name': '黃子華'}
+    config = {'username':'', 'password': '', 'name': ''}
     service = Service(executable_path=r"C:\Users\Albert\Desktop\selenium\chromedriver.exe")
     browser = webdriver.Chrome(service=service)
     browser.get('https://www.104.com.tw')
